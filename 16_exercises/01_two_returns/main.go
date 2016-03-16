@@ -10,7 +10,7 @@ func main() {
 }
 
 func ex(n int) (float64, bool) {
-	half := float64(n) / 2.0
+	half := float64(n) / 2
 	rem := n % 2
 	return half, (rem == 0)
 }
